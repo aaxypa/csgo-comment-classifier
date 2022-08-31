@@ -1,4 +1,4 @@
 # csgo-comment-classifier
-### CS Midyear Capstone Project
+### A Midyear Capstone Project
 
 Meeting toxic people is a common scenario when playing competitive games. This affects the environment of gaming which can lead gamers to quit playing. The research study focuses on classifying the toxicity using Bi-directional LSTM. The dataset was gathered from two different sources which are chat extracted from FaceIT and Kaggle. The required data for this study is the chats. The study used built-in word embedding in Keras instead of pre-trained word embeddings such as Fasttext and GloVe word embeddings. It also creates models with different values in optimizers and compares to find the best result. The model will be evaluated using metrics such as Precision, Recall, and Accuracy. The result of this study determined that using LSTM alone without using pre-trained word embeddings and training for its own word embeddings that will be used for the study’s multi-label binary classifier for chat toxicity classification is effective, although there are recommendations for model performance improvement.
